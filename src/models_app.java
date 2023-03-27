@@ -2,7 +2,6 @@ import java.lang.reflect.Array;
 
 public class models_app {
     public static void main (String[] args){
-        System.out.println("test main");
         models_vehicle[] tab1 = new models_vehicle[4];
         tab1[0] = new models_car(240, "Qasqai", 7);
         tab1[1] = new models_car(666, "Micra", 3);
@@ -12,9 +11,13 @@ public class models_app {
         for(int i = 0; i < tab1.length; i++){
             System.out.println(tab1[i].toString());
         }
-        System.out.println("");
+        System.out.println("-----------------------------------------");
         for (models_vehicle model : tab1) {
             System.out.println(model.toString());
         }
+        models_tunningable autoTun = (models_tunningable) tab1[0];
+        autoTun.increaseSpeed(5);
+        System.out.println("-----------------------------------------");
+        System.out.println(tab1[0].toString());
     }
 }

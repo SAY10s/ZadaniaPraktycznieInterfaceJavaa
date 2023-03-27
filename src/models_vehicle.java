@@ -1,5 +1,5 @@
 public abstract class models_vehicle {
-    private int speed;
+    protected int speed;
     private String model;
 
     public models_vehicle(int speed, String model){

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72be701-fadb-4c03-9d14-15e291e3c09e" name="Changes" comment="ADD: models_plane&#10;FIX: typo in car">
-      <change afterPath="$PROJECT_DIR$/src/models_app.java" afterDir="false" />
+    <list default="true" id="c72be701-fadb-4c03-9d14-15e291e3c09e" name="Changes" comment="ADD: main function">
+      <change afterPath="$PROJECT_DIR$/src/models_tunningable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models_app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models_app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models_car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models_car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models_vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models_vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679929572950</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ADD: main function">
+      <created>1679931046361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679931046361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +99,7 @@
     <MESSAGE value="ADD: models_vehicle" />
     <MESSAGE value="ADD: models_car&#10;FIX: better toString in models_vehicle" />
     <MESSAGE value="ADD: models_plane&#10;FIX: typo in car" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: models_plane&#10;FIX: typo in car" />
+    <MESSAGE value="ADD: main function" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: main function" />
   </component>
 </project>

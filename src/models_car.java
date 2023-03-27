@@ -1,4 +1,4 @@
-public class models_car extends models_vehicle{
+public class models_car extends models_vehicle implements models_tunningable{
     private int numberOfDors;
     public models_car(int speed, String model, int numberOfDors){
         super(speed, model);
@@ -16,5 +16,10 @@ public class models_car extends models_vehicle{
     @Override
     public String toString() {
         return "numberOfDors = " + this.numberOfDors + ", " + super.toString();
+    }
+
+    @Override
+    public void increaseSpeed(int speed) {
+        this.speed = this.speed + speed;
     }
 }
