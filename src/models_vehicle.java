@@ -24,10 +24,9 @@ public abstract class models_vehicle {
 
     @Override
     public String toString() {
-        return "models_vehicle{" +
+        return
                 "speed=" + speed +
-                ", model='" + model + '\'' +
-                '}';
+                ", model='" + model + '\'';
     }
 
 }
