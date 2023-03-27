@@ -15,6 +15,6 @@ public class models_car extends models_vehicle{
 
     @Override
     public String toString() {
-        return "numberOfDors = " + this.numberOfDors + " " + super.toString();
+        return "numberOfDors = " + this.numberOfDors + ", " + super.toString();
     }
 }
